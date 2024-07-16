@@ -18,6 +18,7 @@ npm run build
 ```
 npm start
 ```
+![Alt text](images/installation.png)
 6. Use Postman to make HTTP requests to the API endpoints:
 - Upload a CSV file:
   `POST /upload`
@@ -35,6 +36,7 @@ npm start
 ## Perform actions on live API
 1. Upload CSV file
 2. A New Root replacing existing root
+```
 {
     "job Id": "ACC-1111",
     "job title": "Senior Developer",
@@ -43,6 +45,7 @@ npm start
     "employee id": 1234,
     "reporting to job id": null
 }
+```
 - A New Employee reporting to Faralisa
 {
     "job Id": "ACC-2222",
@@ -72,7 +75,6 @@ npm start
     "replacement job id": "ACC-0006"
 }
 
-![Alt text](images/tests.png)
 ![Alt text](images/jar.png)
 ![Alt text](images/web.png)
 ![Alt text](images/makebooking.png)
