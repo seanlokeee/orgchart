@@ -35,6 +35,7 @@ npm start
 
 ## Perform actions on live API
 1. Upload CSV file
+![Alt text](images/upload.png)
 2. A New Root replacing existing root
 ```
 {
@@ -46,7 +47,9 @@ npm start
     "reporting to job id": null
 }
 ```
+![Alt text](images/newroot.png)
 - A New Employee reporting to Faralisa
+```
 {
     "job Id": "ACC-2222",
     "job title": "Developer",
@@ -55,29 +58,36 @@ npm start
     "employee id": 1567,
     "reporting to job id": "ACC-0005"
 }
+```
+![Alt text](images/newemp.png)
 - Promote employee to report to root
+```
 {
     "job Id": "ACC-0005",
     "reporting to job id": null
 }
+```
+![Alt text](images/promoteemp.png)
 - Updating John's name
+```
 {
     "job Id": "ACC-1111",
     "employee name": "John Doe Macquarie"
 }
-- Resigning an employee with no children
+```
+![Alt text](images/updatename.png)
+- Resigning an employee with no children (no replacement)
+```
 {
     "job Id": "ACC-0010"
 }
+```
+![Alt text](images/resignempwithnochildren.png)
 - Resigning an employee and replacing it with it's children
+```
 {
     "job Id": "ACC-0002",
     "replacement job id": "ACC-0006"
 }
-
-![Alt text](images/jar.png)
-![Alt text](images/web.png)
-![Alt text](images/makebooking.png)
-![Alt text](images/availableRoom.png)
-![Alt text](images/bookings.png)
-![Alt text](images/datebooked.png)
+```
+![Alt text](images/resignreplacement.png)
