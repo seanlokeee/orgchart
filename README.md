@@ -48,7 +48,7 @@ npm start
 }
 ```
 ![Alt text](images/newroot.png)
-- A New Employee reporting to Faralisa
+3. A New Employee reporting to Faralisa
 ```
 {
     "job Id": "ACC-2222",
@@ -60,7 +60,7 @@ npm start
 }
 ```
 ![Alt text](images/newemp.png)
-- Promote employee to report to root
+4. Promote employee to report to root
 ```
 {
     "job Id": "ACC-0005",
@@ -68,7 +68,7 @@ npm start
 }
 ```
 ![Alt text](images/promoteemp.png)
-- Updating John's name
+5. Updating John's name
 ```
 {
     "job Id": "ACC-1111",
@@ -76,14 +76,14 @@ npm start
 }
 ```
 ![Alt text](images/updatename.png)
-- Resigning an employee with no children (no replacement)
+6. Resigning an employee with no children (no replacement)
 ```
 {
     "job Id": "ACC-0010"
 }
 ```
 ![Alt text](images/resignempwithnochildren.png)
-- Resigning an employee and replacing it with it's children
+7. Resigning an employee and replacing it with it's children
 ```
 {
     "job Id": "ACC-0002",
