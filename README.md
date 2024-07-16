@@ -34,9 +34,9 @@ npm start
   `GET /orgchart`
 
 ## Perform actions on live API
-1. Upload CSV file
+- Upload CSV file
 ![Alt text](images/upload.png)
-2. A New Root replacing existing root
+- A New Root replacing existing root
 ```
 {
     "job Id": "ACC-1111",
@@ -48,7 +48,7 @@ npm start
 }
 ```
 ![Alt text](images/newroot.png)
-3. A New Employee reporting to Faralisa
+- A New Employee reporting to Faralisa
 ```
 {
     "job Id": "ACC-2222",
@@ -60,7 +60,7 @@ npm start
 }
 ```
 ![Alt text](images/newemp.png)
-4. Promote employee to report to root
+- Promote employee to report to root
 ```
 {
     "job Id": "ACC-0005",
@@ -68,7 +68,7 @@ npm start
 }
 ```
 ![Alt text](images/promoteemp.png)
-5. Updating John's name
+- Updating John's name
 ```
 {
     "job Id": "ACC-1111",
@@ -76,14 +76,14 @@ npm start
 }
 ```
 ![Alt text](images/updatename.png)
-6. Resigning an employee with no children (no replacement)
+- Resigning an employee with no children (no replacement)
 ```
 {
     "job Id": "ACC-0010"
 }
 ```
 ![Alt text](images/resignempwithnochildren.png)
-7. Resigning an employee and replacing it with it's children
+- Resigning an employee and replacing it with it's children
 ```
 {
     "job Id": "ACC-0002",
